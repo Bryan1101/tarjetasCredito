@@ -1,5 +1,6 @@
 'use strict';
 const axios = require("axios");
+const helpers = require('/opt/helpers');
 //Nombre secretos
 const lambdaSecretName = "lambda-secret-key";
 const lambdaSecretApi = "lambda-secret-api";
